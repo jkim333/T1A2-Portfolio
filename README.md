@@ -41,11 +41,11 @@ Moreover, semantic HTML elements were added to provide meaning to the elements a
 All visitors to the website will firstly be directed to the 'Home' page as this is the index page. The 'Home' page provides links to 'About', 'Projects', 'Blog', and 'Contact' pages. This page will also provide a short snapshot and a link to the aforementioned pages. The description of each page is shown below:
 
 - 'About' page provides an overall introduction of myself, my technical skills, education background, work experience, and my personal interests. 'About' page also provides a downloadable link to a PDF of my resume.
-- 'Projects' page provides a list of my projects that I have worked on to date. Each project is provided with a link that leads users to 'Project Detail' page.
-- 'Blog' page provides a list of blogs that I have written. Each blog post is provided with a link that leads users to 'Blog Detail' page.
+- 'Projects' page provides a list of my projects that I have worked on to date.
+- 'Blog' page provides a list of blogs that I have written.
 - 'Contact' page provides a form for users to fill in to reach out to me via an email.
 
-![Sitemap of Jihyung's portfolio website](./docs/sitemap.jpg)
+![Sitemap of Jihyung's portfolio website](./docs/sitemap.png)
 
 <br/>
 
