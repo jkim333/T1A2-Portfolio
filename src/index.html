@@ -25,7 +25,7 @@
     <!-- Font Awesome end -->
 
     <!-- css start -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <!-- css end -->
   </head>
   <body>
@@ -57,23 +57,178 @@
     <!-- Navbar end -->
 
     <!-- Introduction section start -->
-    <section class="introduction"></section>
+    <section class="introduction">
+      <div class="container">
+        <div class="introduction__text">
+          <p id="introduction__para1">Hello, I am...</p>
+          <p id="introduction__para2">Jihyung Kim</p>
+          <p id="introduction__para3">Full-Stack Developer</p>
+          <p id="introduction__para4">
+            A student pursuing Full-Stack Web Development Bootcamp at Coder
+            Academy in Melbourne, Australia. Passionate about coding and
+            developing great ideas into great products.
+          </p>
+          <a class="introduction__btn" href="./projects.html">View Projects</a>
+        </div>
+        <div class="introduction__image">
+          <img src="./img/jihyung.jpeg" alt="Jihyung" />
+        </div>
+      </div>
+    </section>
     <!-- Introduction section end -->
 
     <!-- Projects section start -->
-    <section class="projects"></section>
+    <section class="projects">
+      <div class="container">
+        <h2 class="projects__title">Projects</h2>
+        <div class="underline"></div>
+        <div class="projects__body">
+          <article class="project">
+            <img
+              src="https://via.placeholder.com/700"
+              alt=""
+              class="project__img"
+            />
+            <h3 class="project__title">Project title</h3>
+            <div class="project__links">
+              <a href="#" class="project__github-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project__live-project-link">Live project</a>
+            </div>
+          </article>
+          <article class="projects__project">
+            <img
+              src="https://via.placeholder.com/700"
+              alt=""
+              class="project__img"
+            />
+            <h3 class="project__title">Project title</h3>
+            <div class="project__links">
+              <a href="#" class="project__github-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="project__live-project-link">Live project</a>
+            </div>
+          </article>
+        </div>
+        <div class="projects__btn">
+          <a href="./projects.html">View All Projects</a>
+        </div>
+      </div>
+    </section>
     <!-- Projects section end -->
 
     <!-- Technical skills section start -->
-    <section class="technical-skills"></section>
+    <section class="technical-skills">
+      <div class="container">
+        <h2 class="technical-skills__title">Technical Skills</h2>
+        <div class="underline"></div>
+        <div class="technical-skills__body">
+          <article class="technical-skill">
+            <div class="technical-skill__icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3 class="technical-skill__title">Client Side</h3>
+            <ul class="technical-skill__items">
+              <li class="technical-skill__item">
+                <img src="./img/html5.png" alt="html5" />
+                <p>HTML5</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/css3.png" alt="css3" />
+                <p>CSS3</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/javascript.png" alt="javascript" />
+                <p>JavaScript</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/reactjs.png" alt="reactjs" />
+                <p>React JS</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/nextjs.png" alt="nextjs" />
+                <p>Next JS</p>
+              </li>
+            </ul>
+          </article>
+          <article class="technical-skill">
+            <div class="technical-skill__icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3 class="technical-skill__title">Client Side</h3>
+            <ul class="technical-skill__items">
+              <li class="technical-skill__item">
+                <img src="./img/python.png" alt="python (django)" />
+                <p>Python (Django)</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/ruby.png" alt="Ruby (Ruby on Rails)" />
+                <p>Ruby (Ruby on Rails)</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/postgresql.png" alt="postgresql" />
+                <p>PostgreSQL</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/aws.png" alt="amazon web services" />
+                <p>Amazon Web Services</p>
+              </li>
+              <li class="technical-skill__item">
+                <img src="./img/heroku.png" alt="heroku" />
+                <p>Heroku</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
     <!-- Technical skills section end -->
 
     <!-- Contact Me section start -->
-    <section class="contact-me"></section>
+    <section class="contact-me">
+      <div class="container">
+        <h2 class="contact-me__title">Contact Me</h2>
+        <div class="underline"></div>
+        <div class="contact-me__body">
+          <p class="contact-me__text">
+            I aspire to start my career as a fullstack developer.
+          </p>
+          <p class="contact-me__text">
+            While I am based in Melbourne, Australia, I am also open to work
+            remotely.
+          </p>
+          <a href="#" class="resume"
+            ><section class="resume__icon"><i class="far fa-file"></i></section>
+            Jihyung-Kim-resume.pdf</a
+          >
+        </div>
+      </div>
+    </section>
     <!-- Contact Me section end -->
 
     <!-- Footer start -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="#" class="footer__link">
+          <section class="footer__link-icon">
+            <i class="fab fa-github"></i>
+          </section>
+          GitHub
+        </a>
+        <a href="#" class="footer__link">
+          <section class="footer__link-icon">
+            <i class="fab fa-linkedin"></i>
+          </section>
+          LinkedIn
+        </a>
+      </div>
+      <h1 class="footer__logo">
+        <span class="footer__logo-first">Jihyung</span> Kim
+      </h1>
+      <p>Copyright &copy; 2021 Jihyung Kim</p>
+    </footer>
     <!-- Footer end -->
 
     <script src="./main.js"></script>
