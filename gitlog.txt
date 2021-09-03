@@ -1,0 +1,143 @@
+commit 3f433dc17aa83dbb079d373e811aa97d4e355980
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 16:35:20 2021 +1000
+
+    Added more comments on the html files to clearly identify the components.
+
+commit 8abc4c8d02c94b946e9b82a7cb0b422be9d061d2
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 16:08:26 2021 +1000
+
+    Added more information to the sitemap section of the ppt.
+
+commit 2cdece2f8d95c23025e2bec75a1498e7ba1e264e
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 15:49:49 2021 +1000
+
+    Implemented sha-512 SRI for all custom css files.
+
+commit 0c225e5d998fa8fbad2dd6b4d59ad5a4e8de91f8
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 15:21:59 2021 +1000
+
+    Included screenshots to README.md.
+
+commit 9cadf3888bb2702c12dc43f3c460e6ab2a13750b
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 14:53:22 2021 +1000
+
+    Added my presentation slide into ./ppt.
+
+commit ce27f45234b27b731478070eea9d39b07cf9221b
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 14:01:59 2021 +1000
+
+    Linked contact form on contact.html to Formspree.
+
+commit 7fa033bc635653021362fa0d183e68bd0048f3a8
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 13:43:34 2021 +1000
+
+    Fixed scrollbar bug on index.html.
+
+commit 78179d03c93817005de82b43873ebcd79192aa50
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 13:34:11 2021 +1000
+
+    Updated footer copyright year to calculate the year dynamically.
+
+commit ae7dc7d851f56794209724e57684914e77d0e40e
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 13:23:17 2021 +1000
+
+    Updated footer for all pages to include my github and linkedin address.
+
+commit e06cab0e20e0b441a3d3871d162aed0e6cb50fde
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 13:14:49 2021 +1000
+
+    Included my cv and updated links to direct to it.
+
+commit dfce8b1cf2c24d3a84ebc33a94d410192d0def6c
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 11:53:19 2021 +1000
+
+    Added footer to blog.html.
+
+commit 9855ef855200bb54ea4d90a6deca9df6aa6bab18
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 11:52:40 2021 +1000
+
+    Changed my name from Jihyung to Ji (preferred name).
+
+commit 6a36c834395f3f731330e11f95b3c74da4b79205
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 11:44:30 2021 +1000
+
+    Created blog.html.
+
+commit 41db2b2b5c7db85ec849016bbc3d0de978e9577b
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 11:21:16 2021 +1000
+
+    Completed projects.html.
+
+commit 205efc369b88ea25554b3f5af8d5dcfbf85cbb83
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 10:00:38 2021 +1000
+
+    Moved main.js file into a new directory called 'js'.
+
+commit 7055fedee79905b884a4547f4ed6f2f915038c8e
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 09:55:24 2021 +1000
+
+    Completed contact.html.
+
+commit 19a8c2d874263e1e4b66639ed35f1c1258fe7db8
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 00:08:31 2021 +1000
+
+    Included blog page to navbar for all pages.
+
+commit b1159ab2b1660fcfd284de54a0611c9a73c0d861
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 00:05:52 2021 +1000
+
+    Completed about.html.
+
+commit 2ec1f98f1cfa8e2f0fb6c2569f8eaf87e4a7c3fb
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Thu Sep 2 20:22:17 2021 +1000
+
+    Completed index.html.
+
+commit 0c5069d77dd18d12be165ae2d6f9ff0851491a67
+Author: Jihyung Kim <kimjihyung3@gmail.com>
+Date:   Mon Aug 30 19:33:57 2021 +1000
+
+    Created navbar.
+
+commit 65d997b50ba8d1a29ac4fe10c0a4786fca4edea2
+Author: Jihyung Kim <kimjihyung3@gmail.com>
+Date:   Mon Aug 30 17:23:44 2021 +1000
+
+    Created initial html and css files.
+
+commit 6f0ef796e4386249e0c9beb56d1d76cb632d975d
+Author: Jihyung Kim <kimjihyung3@gmail.com>
+Date:   Mon Aug 30 16:50:01 2021 +1000
+
+    Updated sitemap and made adjustments to the README.md accordingly.
+
+commit 5ce03d07e0d2fedae85f320038e0f11335ee2771
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Thu Aug 26 18:17:48 2021 +1000
+
+    Updated sitemap.jpg and created README.md.
+
+commit 2b126571f540043fa1ac6f090a84efbd7c35a1f0
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Thu Aug 26 16:00:59 2021 +1000
+
+    Created sitemap.jpg.

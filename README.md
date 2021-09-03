@@ -2,7 +2,7 @@
 
 **Quick Summary**
 
-- Live portfolio website: https://jikim.netlify.app.com
+- Live portfolio website: https://jikim.netlify.app
 - Github repository: https://github.com/jkim333/T1A2-Portfolio
 
 <br/>
