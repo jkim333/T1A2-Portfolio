@@ -322,9 +322,15 @@ body {
 .interest-hobbies__body p {
   line-height: 2;
   text-align: center;
+  font-size: 0.9rem;
 }
 .interest-hobbies__body p:first-of-type {
   margin-bottom: 1.5rem;
+}
+@media (min-width: 1200px) {
+  .interest-hobbies__body p {
+    font-size: 1rem;
+  }
 }
 /* Interest and Hobbies section end */
 
