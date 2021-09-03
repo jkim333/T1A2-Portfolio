@@ -1,3 +1,9 @@
+commit dd88b4510f2367c1c955f9087f1fbeba80f6bfd8
+Author: jkim333 <kimjihyung3@gmail.com>
+Date:   Fri Sep 3 16:43:52 2021 +1000
+
+    Added gitlog.txt and updated README.md.
+
 commit 3f433dc17aa83dbb079d373e811aa97d4e355980
 Author: jkim333 <kimjihyung3@gmail.com>
 Date:   Fri Sep 3 16:35:20 2021 +1000
