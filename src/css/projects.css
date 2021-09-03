@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #374151;
+}
+
+.underline {
+  height: 0.2rem;
+  width: 7rem;
+  background: #34d399;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/* container start */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* container end */
+
+/* Navbar start */
+.navbar {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+}
+.navbar > .container {
+  padding: 0.5rem;
+}
+.navbar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.navbar__logo-first {
+  color: #34d399;
+}
+.navbar__body {
+  display: none;
+  list-style: none;
+}
+.navbar__body.show {
+  display: block;
+}
+.navbar__link {
+  text-decoration: none;
+  color: #374151;
+  padding: 1rem;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.navbar__link:hover {
+  background: #ecfdf5;
+}
+.navbar__btn {
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #374151;
+  transition: color 0.3s;
+}
+.navbar__btn:hover {
+  color: #34d399;
+}
+@media (min-width: 768px) {
+  .navbar__btn {
+    display: none;
+  }
+  .navbar > .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar__body {
+    display: flex !important;
+  }
+}
+/* Navbar end */
+
+/* Projects section start */
+.projects {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  background: rgba(239, 246, 255, 0.5);
+}
+.projects__title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.projects__body {
+  display: grid;
+  gap: 4rem;
+}
+.project {
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.project__img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.project__text {
+  text-align: center;
+  padding: 1rem;
+}
+.project__title {
+  margin-bottom: 0.5rem;
+}
+.project__author {
+  margin-bottom: 1rem;
+}
+.project__text > p {
+  font-size: 0.9rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+  color: #6b7280;
+}
+.project__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project__github-link {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #374151;
+  transition: opacity 0.3s;
+}
+.project__github-link:hover {
+  opacity: 0.8;
+}
+.project__live-project-link {
+  text-decoration: none;
+  font-size: 1rem;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #34d399;
+  color: #34d399;
+  transition: background-color 0.3s, color 0.3s;
+}
+.project__live-project-link:hover {
+  background: #34d399;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .projects__body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .project__text > p {
+    font-size: 1rem;
+  }
+}
+/* Projects section end */
+
+/* Footer start */
+.footer {
+  background: #34d399;
+  color: #374151;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #374151;
+  transition: color 0.3s;
+}
+.footer__link:hover {
+  color: #fff;
+}
+.footer__link:first-of-type {
+  margin-right: 1rem;
+}
+.footer__link-icon {
+  font-size: 1.5rem;
+}
+.footer__logo {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+.footer__logo-first {
+  color: #fff;
+}
+/* Footer end */
