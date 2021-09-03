@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #374151;
+  overflow-x: hidden;
 }
 
 .underline {
@@ -356,15 +357,22 @@ body {
   text-align: center;
   margin-bottom: 2.5rem;
 }
-.resume {
+.resume-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+.resume {
+  display: inline-block;
   color: #374151;
   transition: opacity 0.3s;
   animation-name: inflate-deflate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+.resume div {
+  display: flex;
+  align-items: center;
+  color: #374151;
 }
 .resume__icon {
   margin-right: 0.5rem;
