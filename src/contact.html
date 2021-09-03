@@ -70,24 +70,33 @@
               Please fill in the form below to get in touch with me! &#128513;
             </p>
           </div>
-          <form action="." class="contact-form" autocomplete="off">
+          <form
+            action="https://formspree.io/f/mrgrrlzn"
+            method="POST"
+            class="contact-form"
+            autocomplete="off"
+          >
             <div class="field-groups">
               <div class="field-group">
-                <label for="name" class="field-group__label">Name:</label>
+                <label for="name" class="field-group__label">Your Name:</label>
                 <input
                   type="text"
                   name="name"
                   id="name"
                   class="field-group__input"
+                  required
                 />
               </div>
               <div class="field-group">
-                <label for="email" class="field-group__label">Email:</label>
+                <label for="email" class="field-group__label"
+                  >Your Email:</label
+                >
                 <input
                   type="email"
                   name="email"
                   id="email"
                   class="field-group__input"
+                  required
                 />
               </div>
               <div class="field-group">
@@ -98,6 +107,7 @@
                   cols="30"
                   rows="10"
                   class="field-group__input"
+                  required
                 ></textarea>
               </div>
             </div>
