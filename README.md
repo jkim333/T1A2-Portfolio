@@ -2,7 +2,7 @@
 
 **Quick Summary**
 
-- Live portfolio website: https://jihyungkim.netlify.app.com
+- Live portfolio website: https://jikim.netlify.app.com
 - Github repository: https://github.com/jkim333/T1A2-Portfolio
 
 <br/>
@@ -32,7 +32,7 @@ This portfolio website provides a lot of information about myself, such as my te
 
 This website is fully responsive and is tailored to all available displays, including desktop, mobile and tablet.
 
-Moreover, semantic HTML elements were added to provide meaning to the elements and improve accessiblity support for all users.
+Moreover, semantic HTML elements were added to provide meaning to the elements and improve accessiblity for all users.
 
 <br/>
 
@@ -51,7 +51,14 @@ All visitors to the website will firstly be directed to the 'Home' page as this 
 
 <h2 id="screenshots">Screenshots</h2>
 
-screenshots...
+![Screenshot of index page 1](./docs/index-1-desktop.PNG)
+![Screenshot of index page 2](./docs/index-2-desktop.PNG)
+![Screenshot of index page 3](./docs/index-3-desktop.PNG)
+![Screenshot of about page 1](./docs/about-me-1-mobile.PNG)
+![Screenshot of about page 2](./docs/about-me-2-mobile.PNG)
+![Screenshot of projects page 1](./docs/projects-1-desktop.PNG)
+![Screenshot of blog page 1](./docs/blog-1-desktop.PNG)
+![Screenshot of contact page 1](./docs/contact-me-1-desktop.PNG)
 
 <br/>
 
