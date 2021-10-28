@@ -25,11 +25,7 @@
     <!-- Font Awesome end -->
 
     <!-- css start -->
-    <link
-      rel="stylesheet"
-      href="./css/projects.css"
-      integrity="sha512-nwM4NVLZYOmIEoVA3HyfpW5Zul0ddND6HlTznF2KA6KAELZwPOWS7tPr5sljc6Zw00KejD+Zz5LGUumRY9NLqg=="
-    />
+    <link rel="stylesheet" href="./css/projects.css" />
     <!-- css end -->
   </head>
   <body>
@@ -37,9 +33,11 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar__header">
-          <h1 class="navbar__logo">
-            <span class="navbar__logo-first">Ji</span> Kim
-          </h1>
+          <a href="./index.html">
+            <h1 class="navbar__logo">
+              <span class="navbar__logo-first">Ji</span> Kim
+            </h1>
+          </a>
           <button class="navbar__btn"><i class="fas fa-bars"></i></button>
         </div>
         <ul class="navbar__body">
@@ -51,9 +49,6 @@
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="./projects.html">Projects</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="./blog.html">Blog</a>
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="./contact.html">Contact</a>
@@ -72,27 +67,42 @@
           <!-- Project article start -->
           <article class="project">
             <img
-              src="https://via.placeholder.com/700"
+              src="./img/drf_logo.png"
               alt="project image"
               class="project__img"
             />
             <div class="project__text">
-              <h3 class="project__title">Project title</h3>
-              <h4 class="project__author">By Ji | Created on 28/08/2021</h4>
+              <h3 class="project__title">SCATS Map REST API</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                cumque unde, repellat vel dignissimos sit recusandae similique
-                iure corrupti. Velit sapiente, inventore in beatae suscipit
-                facere explicabo temporibus? Iusto voluptatibus officia velit
-                quo blanditiis, nemo cumque nisi sed ipsum nobis, totam
-                provident natus, laboriosam distinctio itaque sunt facilis iste
-                a!
+                Major traffic signals in Victoria in Australia are managed by
+                the Sydney Coordinated Adaptive Traffic System (SCATS). SCATS
+                manages the operation of the signals dynamically and collects
+                and stores traffic volumes data through its detectors. SCATS
+                data is made openly available by the Victorian Government
+                (https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data)
+                and is widely used by the transport engineers and planners to
+                analyse how the intersections and the transport network as a
+                whole performs.
+              </p>
+              <p>
+                This app was developed to make the whole process of working with
+                the SCATS data easy and quick, by providing an API service to
+                the users using Python Django as the backend. Depending on the
+                task, it is estimated that this app can save from 30 minutes to
+                several hours of time per individual task, which can bring
+                significant time saving to the individual when compounded over
+                time. Simply put, this app can provide time saving to anyone who
+                works with the SCATS data in Victoria.
               </p>
               <div class="project__links">
-                <a href="#" class="project__github-link">
+                <a
+                  href="https://github.com/jkim333/scats-map-sass"
+                  class="project__github-link"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="project__live-project-link">Live project</a>
+                <!--<a href="#" class="project__live-project-link">Live project</a>-->
               </div>
             </div>
           </article>
@@ -101,114 +111,33 @@
           <!-- Project article start -->
           <article class="project">
             <img
-              src="https://via.placeholder.com/700"
+              src="./img/trivia_quiz_ruby_terminal_app.png"
               alt="project image"
               class="project__img"
             />
             <div class="project__text">
-              <h3 class="project__title">Project title</h3>
-              <h4 class="project__author">By Ji | Created on 27/08/2021</h4>
+              <h3 class="project__title">Trivia Quiz Ruby Terminal App</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                cumque unde, repellat vel dignissimos sit recusandae similique
-                iure corrupti. Velit sapiente, inventore in beatae suscipit
-                facere explicabo temporibus? Iusto voluptatibus officia velit
-                quo blanditiis, nemo cumque nisi sed ipsum nobis, totam
-                provident natus, laboriosam distinctio itaque sunt facilis iste
-                a!
+                This is a ruby terminal application that uses an external trivia
+                quiz API (https://opentdb.com/api_config.php) to create fun
+                trivia quiz games for anyone.
+              </p>
+              <p>
+                The user will be able to choose the number of questions they
+                would like to answer, category (e.g. general knowledge, sports,
+                and many more), and the level of difficulty. The application
+                will create a trivia quiz game tailored to the user's
+                preferences.
               </p>
               <div class="project__links">
-                <a href="#" class="project__github-link">
+                <a
+                  href="https://github.com/jkim333/T1A3-Terminal-Application"
+                  class="project__github-link"
+                  target="_blank"
+                >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="project__live-project-link">Live project</a>
-              </div>
-            </div>
-          </article>
-          <!-- Project article end -->
-
-          <!-- Project article start -->
-          <article class="project">
-            <img
-              src="https://via.placeholder.com/700"
-              alt="project image"
-              class="project__img"
-            />
-            <div class="project__text">
-              <h3 class="project__title">Project title</h3>
-              <h4 class="project__author">By Ji | Created on 26/08/2021</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                cumque unde, repellat vel dignissimos sit recusandae similique
-                iure corrupti. Velit sapiente, inventore in beatae suscipit
-                facere explicabo temporibus? Iusto voluptatibus officia velit
-                quo blanditiis, nemo cumque nisi sed ipsum nobis, totam
-                provident natus, laboriosam distinctio itaque sunt facilis iste
-                a!
-              </p>
-              <div class="project__links">
-                <a href="#" class="project__github-link">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="project__live-project-link">Live project</a>
-              </div>
-            </div>
-          </article>
-          <!-- Project article end -->
-
-          <!-- Project article start -->
-          <article class="project">
-            <img
-              src="https://via.placeholder.com/700"
-              alt="project image"
-              class="project__img"
-            />
-            <div class="project__text">
-              <h3 class="project__title">Project title</h3>
-              <h4 class="project__author">By Ji | Created on 25/08/2021</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                cumque unde, repellat vel dignissimos sit recusandae similique
-                iure corrupti. Velit sapiente, inventore in beatae suscipit
-                facere explicabo temporibus? Iusto voluptatibus officia velit
-                quo blanditiis, nemo cumque nisi sed ipsum nobis, totam
-                provident natus, laboriosam distinctio itaque sunt facilis iste
-                a!
-              </p>
-              <div class="project__links">
-                <a href="#" class="project__github-link">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="project__live-project-link">Live project</a>
-              </div>
-            </div>
-          </article>
-          <!-- Project article end -->
-
-          <!-- Project article start -->
-          <article class="project">
-            <img
-              src="https://via.placeholder.com/700"
-              alt="project image"
-              class="project__img"
-            />
-            <div class="project__text">
-              <h3 class="project__title">Project title</h3>
-              <h4 class="project__author">By Ji | Created on 24/08/2021</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                cumque unde, repellat vel dignissimos sit recusandae similique
-                iure corrupti. Velit sapiente, inventore in beatae suscipit
-                facere explicabo temporibus? Iusto voluptatibus officia velit
-                quo blanditiis, nemo cumque nisi sed ipsum nobis, totam
-                provident natus, laboriosam distinctio itaque sunt facilis iste
-                a!
-              </p>
-              <div class="project__links">
-                <a href="#" class="project__github-link">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="project__live-project-link">Live project</a>
+                <!--<a href="#" class="project__live-project-link">Live project</a>-->
               </div>
             </div>
           </article>
@@ -221,7 +150,11 @@
     <!-- Footer start -->
     <footer class="footer">
       <div class="footer__social">
-        <a href="https://github.com/jkim333" class="footer__link">
+        <a
+          href="https://github.com/jkim333"
+          class="footer__link"
+          target="_blank"
+        >
           <section class="footer__link-icon">
             <i class="fab fa-github"></i>
           </section>
@@ -230,6 +163,7 @@
         <a
           href="https://au.linkedin.com/in/jihyung-ji-kim"
           class="footer__link"
+          target="_blank"
         >
           <section class="footer__link-icon">
             <i class="fab fa-linkedin"></i>

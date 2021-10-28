@@ -25,11 +25,7 @@
     <!-- Font Awesome end -->
 
     <!-- css start -->
-    <link
-      rel="stylesheet"
-      href="./css/index.css"
-      integrity="sha512-pggDEPOW8slKa4sClWMXRAPThfMvE8bbBXaaXcIJ/+2f5az93mjXXqFfmmbnD76NR9AYVpDOaUtwmwQyAG8MnA=="
-    />
+    <link rel="stylesheet" href="./css/index.css" />
     <!-- css end -->
   </head>
   <body>
@@ -37,9 +33,11 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar__header">
-          <h1 class="navbar__logo">
-            <span class="navbar__logo-first">Ji</span> Kim
-          </h1>
+          <a href="./index.html">
+            <h1 class="navbar__logo">
+              <span class="navbar__logo-first">Ji</span> Kim
+            </h1>
+          </a>
           <button class="navbar__btn"><i class="fas fa-bars"></i></button>
         </div>
         <ul class="navbar__body">
@@ -51,9 +49,6 @@
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="./projects.html">Projects</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="./blog.html">Blog</a>
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="./contact.html">Contact</a>
@@ -92,30 +87,38 @@
         <div class="projects__body">
           <article class="project">
             <img
-              src="https://via.placeholder.com/700"
+              src="./img/drf_logo.png"
               alt="project image"
               class="project__img"
             />
-            <h3 class="project__title">Project title</h3>
+            <h3 class="project__title">SCATS Map REST API</h3>
             <div class="project__links">
-              <a href="#" class="project__github-link">
+              <a
+                href="https://github.com/jkim333/scats-map-sass"
+                class="project__github-link"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="project__live-project-link">Live project</a>
+              <!--<a href="#" class="project__live-project-link">Live project</a>-->
             </div>
           </article>
           <article class="projects__project">
             <img
-              src="https://via.placeholder.com/700"
+              src="./img/trivia_quiz_ruby_terminal_app.png"
               alt="project image"
               class="project__img"
             />
-            <h3 class="project__title">Project title</h3>
+            <h3 class="project__title">Trivia Quiz Ruby Terminal App</h3>
             <div class="project__links">
-              <a href="#" class="project__github-link">
+              <a
+                href="https://github.com/jkim333/T1A3-Terminal-Application"
+                class="project__github-link"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="project__live-project-link">Live project</a>
+              <!--<a href="#" class="project__live-project-link">Live project</a>-->
             </div>
           </article>
         </div>
@@ -229,7 +232,11 @@
     <!-- Footer start -->
     <footer class="footer">
       <div class="footer__social">
-        <a href="https://github.com/jkim333" class="footer__link">
+        <a
+          href="https://github.com/jkim333"
+          class="footer__link"
+          target="_blank"
+        >
           <section class="footer__link-icon">
             <i class="fab fa-github"></i>
           </section>
@@ -238,6 +245,7 @@
         <a
           href="https://au.linkedin.com/in/jihyung-ji-kim"
           class="footer__link"
+          target="_blank"
         >
           <section class="footer__link-icon">
             <i class="fab fa-linkedin"></i>
