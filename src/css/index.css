@@ -231,12 +231,12 @@ body {
 }
 .project__img {
   width: 100%;
-  height: 400px;
+  max-height: 400px;
   object-fit: contain;
 }
 .projects__body {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
 }
 .project__title {
   margin-top: 1rem;
@@ -297,6 +297,9 @@ body {
   .projects__body {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+  .project__img {
+    height: 400px;
   }
 }
 /* Projects section end */
